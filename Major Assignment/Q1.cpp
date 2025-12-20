@@ -38,7 +38,7 @@ class Account{
         }
     }
     void displayBalance(){
-        cout<<"Current Balance for "+ customerName + " is: "<<balance<<endl;
+        cout<<"Current Balance for "<<customerName<<" is: "<<balance<<endl;
     }
 };
 class SavingsAccount: public Account{
