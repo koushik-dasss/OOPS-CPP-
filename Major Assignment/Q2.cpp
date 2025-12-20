@@ -60,7 +60,7 @@ class Master : public Account , public Admin {
 int main(){
     Master m;
     m.setMaster("Koushik",101,50000,3);
-    cout<<"Master details"<<endl;
+    cout<<"Master details: "<<endl;
     m.displayMaster();
     return 0;
 }
