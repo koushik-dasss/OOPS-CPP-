@@ -66,7 +66,7 @@ int main(){
     for(int i = 0 ; i<n ; i++){
         list.addItem();
     }
-    cout<<"Displaying items: "<<endl;
+    cout<<"Displaying items before deletion : "<<endl;
     list.displayItems();
     cout<<"Total value of items before deletion :"<<endl;
     list.totalValue();
@@ -78,7 +78,7 @@ int main(){
     }
     cout<<"Displaying items after deletion : "<<endl;
     list.displayItems();
-    cout<<"Total value of items after deletion: "<<endl;
+    cout<<"Total value of items after deletion : "<<endl;
     list.totalValue();
     return 0;
 }
